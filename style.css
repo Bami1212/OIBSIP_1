@@ -1,0 +1,42 @@
+.calculator {
+    background-color: rgb(24, 219, 154);
+
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  #result {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+  }
+  .clear {
+    background-color: rgb(255, 169, 8);
+    color: aliceblue;
+  }
+  .equal {
+    background-color: rgb(225, 84, 49);
+    color: white;
+  } 
+
+  .clear:hover {
+    background-color: blanchedalmond;
+    color: black ;
+  }
+
+  .equal:hover{
+    background-color: rebeccapurple;
+  }
+
